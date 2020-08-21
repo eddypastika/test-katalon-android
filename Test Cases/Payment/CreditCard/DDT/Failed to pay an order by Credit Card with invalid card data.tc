@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: PAY-CC-0002</description>
+   <name>Failed to pay an order by Credit Card with invalid card data</name>
+   <tag>CreditCard Midtrans</tag>
+   <comment></comment>
+   <testCaseGuid>92f3e613-676d-4e84-a4c2-05772cdafcb2</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>468a4222-de8b-4721-84fe-95ba9abdcee5</id>
+      <masked>false</masked>
+      <name>card_number</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>3666e643-904d-42a5-8c92-f4971f00a206</id>
+      <masked>false</masked>
+      <name>card_expiration</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>98cb76c0-147d-499d-b6b9-4d55d5c6f9d5</id>
+      <masked>false</masked>
+      <name>card_cvv</name>
+   </variable>
+</TestCaseEntity>

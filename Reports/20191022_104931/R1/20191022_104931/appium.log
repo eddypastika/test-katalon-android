@@ -1,0 +1,39 @@
+[35m[Appium][39m Welcome to Appium v1.14.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 50984
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 50986
+[35m[Appium][39m   tmpDir: /var/folders/nx/kjxgfh3n7fs5_wzr2fl95wfr0000gn/T//Katalon/Appium/Temp1571716185347
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:50984
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/eddypastika/Documents/TaniHub-x86-feature-midtrans-credit-card.apk","noReset":true,"appWaitActivity":"*","appWaitPackage":"com.tanihub.vaesdothrak.dev","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 10)","fullReset":false,"platform":"ANDROID","appWaitDuration":150000,"androidInstallTimeout":150000,"newCommandTimeout":1800,"platformVersion":"10","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":50983},"capabilities":{"firstMatch":[{"appium:androidInstallTimeout":150000,"appium:app":"/Users/eddypastika/Documents/TaniHub-x86-feature-midtrans-credit-card.apk","appium:appWaitActivity":"*","appium:appWaitDuration":150000,"appium:appWaitPackage":"com.tanihub.vaesdothrak.dev","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"emulator-5554","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Andr[39m
+[35m[BaseDriver][39m The capabilities ["deviceId","platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.14.2 creating new AndroidUiautomator2Driver (v1.33.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   deviceId: emulator-5554
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: android
+[35m[Appium][39m   androidInstallTimeout: 150000
+[35m[Appium][39m   app: /Users/eddypastika/Documents/TaniHub-x86-feature-midtrans-credit-card.apk
+[35m[Appium][39m   appWaitActivity: *
+[35m[Appium][39m   appWaitDuration: 150000
+[35m[Appium][39m   appWaitPackage: com.tanihub.vaesdothrak.dev
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceName: emulator-5554 (Android SDK built for x86 - Android 10)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platformVersion: 10
+[35m[Appium][39m   systemPort: 50983
+[35m[Appium][39m   udid: emulator-5554
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 47b70817-9be8-4944-8d87-b0c5f0d45438
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m298 ms - 827[39m
+[35m[HTTP][39m [90m[39m

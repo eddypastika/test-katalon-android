@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Failed to pay by Credit Card with wrong card number</name>
+   <tag>CreditCard Payment</tag>
+   <integratedEntity>
+      <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
+      <properties>
+         <entry>
+            <key>testRail.testcase.id</key>
+            <value>6</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>896112e9-9113-4c74-8ee7-e0830e0412e7</testCaseGuid>
+   <variable>
+      <defaultValue>'4811111111111114'</defaultValue>
+      <description></description>
+      <id>5026c682-a2ea-4e2c-92aa-0903241b682f</id>
+      <masked>false</masked>
+      <name>card_number</name>
+   </variable>
+   <variable>
+      <defaultValue>'1219'</defaultValue>
+      <description></description>
+      <id>3cc987a3-b73d-4a72-88c0-681233e104e0</id>
+      <masked>false</masked>
+      <name>card_expiration</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description></description>
+      <id>088806f8-8c2c-4199-bc85-16660a75f519</id>
+      <masked>false</masked>
+      <name>card_cvv</name>
+   </variable>
+</TestCaseEntity>

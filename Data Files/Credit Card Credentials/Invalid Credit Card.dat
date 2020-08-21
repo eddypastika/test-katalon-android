@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>This test data contains invalid credit card data to test negative scenario for payment with credit card</description>
+   <name>Invalid Credit Card</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c454ad0a-28aa-4be9-b34e-697a515e59d4</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>4811111111111119 1219 123 wrong+card+number Nomor+kartu+tidak+valid</data>
+   <data>4811111111111114 1219 12* cvv+contain+non+number+character Kode+rahasia+harus+3+karakter+</data>
+   <data>4811111111111114 0195 123 card+expiration+less+than+current Tanggal+kedaluwarsa+tidak+valid</data>
+   <data>null null null null null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>card_number</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>card_expiration</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>card_cvv</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>description</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>assertion</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

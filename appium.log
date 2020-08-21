@@ -1,0 +1,129 @@
+[35m[Appium][39m Welcome to Appium v1.14.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 60889
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 60891
+[35m[Appium][39m   tmpDir: /var/folders/nx/kjxgfh3n7fs5_wzr2fl95wfr0000gn/T//Katalon/Appium/Temp1573550452243
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60889
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/eddypastika/Documents/TaniHub-x86-feature-test-id.apk","noReset":true,"appWaitActivity":"*","appWaitPackage":"com.tanihub.vaesdothrak.dev","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 10)","fullReset":false,"platform":"ANDROID","appWaitDuration":150000,"androidInstallTimeout":150000,"newCommandTimeout":1800,"platformVersion":"10","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":60905},"capabilities":{"firstMatch":[{"appium:androidInstallTimeout":150000,"appium:app":"/Users/eddypastika/Documents/TaniHub-x86-feature-test-id.apk","appium:appWaitActivity":"*","appium:appWaitDuration":150000,"appium:appWaitPackage":"com.tanihub.vaesdothrak.dev","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"emulator-5554","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 10)","appium:fullReset[39m
+[35m[BaseDriver][39m The capabilities ["deviceId","platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.14.2 creating new AndroidUiautomator2Driver (v1.33.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   deviceId: emulator-5554
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: android
+[35m[Appium][39m   androidInstallTimeout: 150000
+[35m[Appium][39m   app: /Users/eddypastika/Documents/TaniHub-x86-feature-test-id.apk
+[35m[Appium][39m   appWaitActivity: *
+[35m[Appium][39m   appWaitDuration: 150000
+[35m[Appium][39m   appWaitPackage: com.tanihub.vaesdothrak.dev
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceName: emulator-5554 (Android SDK built for x86 - Android 10)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platformVersion: 10
+[35m[Appium][39m   systemPort: 60905
+[35m[Appium][39m   udid: emulator-5554
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: b0c2cbf5-dbbb-412c-b0b4-b52961250579
+[35m[BaseDriver][39m Using local app '/Users/eddypastika/Documents/TaniHub-x86-feature-test-id.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/eddypastika/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/eddypastika/.katalon/tools/android_sdk/build-tools/29.0.2
+[35m[ADB][39m Using 'adb' from '/Users/eddypastika/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/Users/eddypastika/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Using 'apkanalyzer' from '/Users/eddypastika/.katalon/tools/android_sdk/tools/bin/apkanalyzer'
+[35m[ADB][39m Package name: 'com.tanihub.vaesdothrak.dev'
+[35m[ADB][39m Main activity name: 'com.tanihub.vaesdothrak.MainActivity'
+[35m[ADB][39m Using 'aapt' from '/Users/eddypastika/.katalon/tools/android_sdk/build-tools/29.0.2/aapt'
+[35m[ADB][39m Using 'apksigner' from '/Users/eddypastika/.katalon/tools/android_sdk/build-tools/29.0.2/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[UiAutomator2][39m Starting UIAutomator2 server 3.7.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/Users/eddypastika/.nvm/versions/node/v12.2.0/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.7.0.apk' and test from '/Users/eddypastika/.nvm/versions/node/v12.2.0/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'com.tanihub.vaesdothrak.dev/*'. Starting it ourselves
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session b0c2cbf5-dbbb-412c-b0b4-b52961250579 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39[35m[Appium][39m Received SIGTERM - shutting down
+39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579 [39m[32m200[39m [90m97 ms - 1518[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579 [39m[32m200[39m [90m23 ms - 1518[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b0c2cbf[35m[Appium[35m[Appium][39m Received SIGTERM - shutting down
+ceived SIGTERM - shutting down
+[90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (b0c2cbf5)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a1dc25e5-17eb-4a63-85b2-6dd1595db470 with b0c2cbf5-dbbb-412c-b0b4-b52961250579
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/source [39m[32m200[39m [90m485 ms - 2836[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/screenshot [39m[32m200[39m [90m581 ms - 34870[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (b0c2cbf5)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a1dc25e5-17eb-4a63-85b2-6dd1595db470 with b0c2cbf5-dbbb-412c-b0b4-b52961250579
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/source [39m[32m200[39m [90m2000 ms - 47576[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/screenshot [39m[32m200[39m [90m2179 ms - 2560974[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (b0c2cbf5)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a1dc25e5-17eb-4a63-85b2-6dd1595db470 with b0c2cbf5-dbbb-412c-b0b4-b52961250579
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/source [39m[32m200[39m [90m305 ms - 27750[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/screenshot [39m[32m200[39m [90m996 ms - 1291614[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (b0c[35m[Appium][39m Received SIGTERM - shutting down
+ via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a1dc25e5-17eb-4a63-85b2-6dd1595db470 with b0c2cbf5-dbbb-412c-b0b4-b52961250579
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/source [39m[32m200[39m [90m633 ms - 47576[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579/screenshot [39m[32m200[39m [90m1576 ms - 2561726[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session b0c2cbf5-dbbb-412c-b0b4-b52961250579 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/b0c2cbf5-dbbb-412c-b0b4-b52961250579 [39m[32m200[39m [90m1011 ms - 14[39m
+[35m[HTTP][39m [90m[39m
